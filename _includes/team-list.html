@@ -1,0 +1,16 @@
+{% for whywespeak in site.pages %}
+    {% if whywespeak.nickname == include.nickname %}
+
+        <div class="col-sm-4">
+              <div class="team-member">
+   
+                <img src="{{site.baseurl}}/img/whywespeak/{{whywespeak.image}}" class="img-responsive img-circle" alt="Photo of {{whywespeak.name}}">
+                <h4>{{whywespeak.title}}</h4>
+                <p class="text-muted">{{whywespeak.role}}</p>
+                <p>{{whywespeak.whyispeak}}</p>
+    
+              </div>
+        </div>
+        
+    {% endif %}
+{% endfor %}

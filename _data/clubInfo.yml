@@ -1,0 +1,15 @@
+clubName: 'Chester Speaking Club'
+
+welcome: 'Welcome to Chester Speaking Club, we are a small but growing Toastmaster affiliated club based in Chester UK.  Since 1924, Toastmasters International has been recognized as the leading organization dedicated to communication and leadership skill development. Through its worldwide network of clubs, each week Toastmasters helps more than a quarter million men and women of every ethnicity, education level and profession build their competence in communication so they can gain the con dence to lead others.'
+
+whereWeMeet: 'We meet every first and third Tuesday of the month at the Ship Inn in Chester. Just grab yourself a drink at the bar if you like and then make your way upstairs to the top floor where you will find us'
+
+googlemap: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5002.008664182032!2d-2.8907268694064836!3d53.185147114698!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x695c761c4ea36c00!2sThe+Ship+Inn!5e0!3m2!1sen!2suk!4v1475070606975
+  
+whyWeSpeak: 'Our members speak for all sorts of reasons, here are just a few'
+
+sayHello: 'Were a very friendly club so please feel free to contact us if you have any questions and want to say hello'
+
+clubEmail: test@appijumbo.com
+
+meetupApi: https://api.meetup.com/Chester-Speaking-Club/events?photo-host=public&page=1&sig_id=155522042&only=time&sig=9176d30934d8d1de7af5c64931c6786adbb1f0d5

@@ -1,0 +1,21 @@
+{% for vidsection in site.pages %}
+    {% if vidsection.subject == include.subject %}
+
+<div id="meetingInfo1" class="meetingInfo">
+    <div class="meeting-image">
+        <a href="{{vidsection.link}}" alt="{{vidsection.alt}}">
+            <img src="{{site.baseurl}}/img/vidsection/{{vidsection.image}}">
+        </a>
+    </div>
+    <div class="meeting-panel">
+        <div class="meeting-heading">
+            <h4 class="subheading">{{vidsection.title}}</h4>
+        </div>
+        <div class="meeting-body">
+            <p>{{vidsection.description}}</p>
+        </div>
+    </div>
+</div>
+        
+    {% endif %}
+{% endfor %}
