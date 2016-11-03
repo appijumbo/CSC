@@ -1,4 +1,4 @@
 # Chester Speaking Club Website
 
-https://admincsc.github.io/ChesterSpeakingClub/
+https://appijumbo.github.io/CSC/
 
