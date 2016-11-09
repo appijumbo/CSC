@@ -506,18 +506,15 @@ aside.clients img {
         GOOGLE MAP iFrame style                   
 *****************************************************************************/
 
-#map {
-        width: 100%;
-        height: 300px;
-      }
-
-.map {
-        
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-    font-weight: 700;
+.map iframe{
+    width: 90%;
+    height: 70vh;
 }
+
+h3.section-subheading.text-center{
+    margin-bottom:  7vh;
+}
+
 
 
 
