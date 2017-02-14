@@ -68,12 +68,21 @@ Wishing to keep code focused, a static site was built first, then convert it to 
 The static site built was https://github.com/appijumbo/ToastStatic/tree/gh-pages  
 
 ####Wordpress design
-Final development version is https://github.com/appijumbo/ToastWordpress 
-Used Mamp to create a local wordpress server
+Final development version is found at https://github.com/appijumbo/ToastWordpress 
+For development purposes a local wordpress server is required. In this case Mamp was used.
+
+
 
 Improving the form with UK regEx for telephone numbers
 
+
+
+
 ####Introduction of Github and Git control
+
+
+
+
 
 ####Jekyll Design
 Initial phase Very focused on finding new members.
