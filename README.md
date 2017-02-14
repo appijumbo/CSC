@@ -68,7 +68,8 @@ Wishing to keep code focused, a static site was built first, then convert it to 
 The static site built was https://github.com/appijumbo/ToastStatic/tree/gh-pages  
 
 ####Wordpress design
-(including Meetup Corner)
+Final development version is https://github.com/appijumbo/ToastWordpress 
+Used Mamp to create a local wordpress server
 
 Improving the form with UK regEx for telephone numbers
 
