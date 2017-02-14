@@ -1,5 +1,8 @@
 # Chester Speaking Club Website
-https://admincsc.github.io/CSC/.
+https://appijumbo.github.io/CSC/
+
+
+The version used by the club is a fork of appijumbo version see https://github.com/adminCSC/CSC and http://chesterspeaking.club 
 
 ##Objective
 A Toastmaster club website was to be designed and built. Toastmaster is an established international brand and its main website is a very high quality. However its membership default website that many clubs use is very dated and therefore a fresher more modern design and functionality was required.
