@@ -15,11 +15,11 @@ After some consideration it was felt that a two page design, first page qualify 
 Ostensibly the mobile wireframe was the same as the desktop one but employed single columns and a ‘burger’ menu. Hence although the design was ‘mobile first’ the hardest part from a design perspective was understanding how the desktop sized screen would work.
 
 
-![wireframe design part 1](../design_Info/toastmaster wireframe 1_.jpg)
+![wireframe design part 1](./design_Info/toastmaster wireframe 1_.jpg)
 
-![wireframe design part 2](../design_Info/toastmaster wireframe 2_.jpg)
+![wireframe design part 2](./design_Info/toastmaster wireframe 2_.jpg)
 
-![wireframe design part 2](../design_Info/toastmaster wireframe 3_.jpg)
+![wireframe design part 2](./design_Info/toastmaster wireframe 3_.jpg)
 
 
 ###2) Brand research 
