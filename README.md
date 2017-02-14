@@ -26,13 +26,13 @@ Ostensibly the mobile wireframe was the same as the desktop one but employed sin
 After consulting the main Toastmaster website, information on branding was found that could be directly implemented in the website design. https://www.toastmasters.org/Resources/Logos-Images-and-Templates 
 
 Information such as
-  *brand Visuals – including colour schemes 
+  * brand Visuals – including colour schemes 
 
 ![brand manual visuals](./design_Info/brand manual visuals 1.jpg)
 
-  *text – including elevator pitch with a choice of 50 or 100 words to use as main introduction
+  * text – including elevator pitch with a choice of 50 or 100 words to use as main introduction
 
-  *images – professional and freely available for Toastmaster usage
+  * images – professional and freely available for Toastmaster usage
 
 
 
