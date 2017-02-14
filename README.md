@@ -1,5 +1,5 @@
 # Chester Speaking Club Website
-https://appijumbo.github.io/CSC/
+https://appijumbo.github.io/CSC/ 
 
 
 The version used by the club is a fork of appijumbo version see https://github.com/adminCSC/CSC and http://chesterspeaking.club 
@@ -14,14 +14,12 @@ After some consideration it was felt that a two page design, first page qualify 
 
 Ostensibly the mobile wireframe was the same as the desktop one but employed single columns and a ‘burger’ menu. Hence although the design was ‘mobile first’ the hardest part from a design perspective was understanding how the desktop sized screen would work.
 
-
 ![wireframe design part 1](./design_Info/toastmaster wireframe 1_.jpg)
 
 ![wireframe design part 2](./design_Info/toastmaster wireframe 2_.jpg)
 
-
 ###2) Brand research 
-After consulting the main Toastmaster website, information on branding was found that could be directly implemented in the website design. https://www.toastmasters.org/Resources/Logos-Images-and-Templates 
+After consulting the main Toastmaster website, information on branding was found that could be directly implemented in the website design. https://www.toastmasters.org/Resources/Logos-Images-and-Templates  
 
 Information such as
   * brand Visuals – including colour schemes 
@@ -36,7 +34,7 @@ Information such as
 ### 3) Meetup Button to Meetup’s api
 A feature that dominated the design was a concept that imdeiatley anyone should see what he date of the next meetup is with an obvious link or button to the groups Meetup site provided. The date information shouldn’t be embedded in the button however, but should come from a Meetup Api.
 
-However the exact details of this ajax api code would be left till later though from researching Meetup’s api  it was clear that this was very much doable e.g. https://www.raymondcamden.com/2015/11/20/using-the-meetup-api-in-client-side-applications/ 
+However the exact details of this ajax api code would be left till later though from researching Meetup’s api  it was clear that this was very much doable e.g. https://www.raymondcamden.com/2015/11/20/using-the-meetup-api-in-client-side-applications/  
 
 However initially the date would be hard coded, ensuring the CSS worked across platforms first.
 
@@ -65,15 +63,14 @@ After consultation and advice it was felt that the single page design was too lo
 ####Choosing a dynamic or static website - Wordpress or Jekyll
 It was clear that the site would need to interact with users, thus on the face of it a dynamic website was required. However it was unclear if a complete Wordpress or Jekyll site would be best. Wordpress is well established and has a customer facing platform so initially the site was developed with Wordpress in mind.
 
-Wishing to keep code focused, I decided to convert a static site first, then convert it to Wordpress following a similar process to this one https://www.youtube.com/watch?v=OQY3dNHLt1I&list=PLy9vu-vJXycs8KaJyKBwsZG86nlmMD4_N&index=1
+Wishing to keep code focused, I decided to convert a static site first, then convert it to Wordpress following a similar process to this one https://www.youtube.com/watch?v=OQY3dNHLt1I&list=PLy9vu-vJXycs8KaJyKBwsZG86nlmMD4_N&index=1 
 
-I then built the site as a static see https://github.com/appijumbo/ToastStatic/tree/gh-pages 
+I then built the site as a static see https://github.com/appijumbo/ToastStatic/tree/gh-pages  
 
 ####Wordpress design
 (including Meetup Corner)
 
 Improving the form with UK regEx for telephone numbers
-
 
 ####Introduction of Github and Git control
 
@@ -91,18 +88,14 @@ https://varvy.com
 ###Page 2 - Membership
 The club accountant has suggested that a electronic payment or some other way of filling in a form and automating the club membership should be built in the site. This would suit the second page.
 
-
-
 ##Lessons Learnt
 Have implemented a far better version control system
 
 Sass not CSS
 Use Bootstrap?
 In future I’ll use Gulp for minify etc
-Use Vagrant (https://www.vagrantup.com) with Salt (https://www.vagrantup.com/docs/provisioning/salt.html) to create a better work environment for Wordpress to be developed in.
+Use Vagrant (https://www.vagrantup.com ) with Salt (https://www.vagrantup.com/docs/provisioning/salt.html ) to create a better work environment for Wordpress to be developed in.
 
 had problems managing multiple SSH accounts to interact with Github in MacOS
 
-
 Beaver Builder 
-
