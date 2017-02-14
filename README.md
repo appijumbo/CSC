@@ -67,7 +67,7 @@ It was clear that the site would need to interact with users, thus on the face o
 
 Wishing to keep code focused, I decided to convert a static site first, then convert it to Wordpress following a similar process to this one https://www.youtube.com/watch?v=OQY3dNHLt1I&list=PLy9vu-vJXycs8KaJyKBwsZG86nlmMD4_N&index=1
 
-I then built the site as a static
+I then built the site as a static see https://github.com/appijumbo/ToastStatic/tree/gh-pages 
 
 ####Wordpress design
 (including Meetup Corner)
