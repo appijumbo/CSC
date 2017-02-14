@@ -62,6 +62,8 @@ However initially the date would be hard coded, ensuring the CSS worked across p
 
 ![Toastmaster design 2](./design_Info/Toastmaster design_2of2.jpg)
 
+  * alternative branding using different colour pallette and new logo designed
+    - This is an early 'members corner' page concept
 ![Alternative Branding - Early members page concept](./design_Info/early ideas on how 'members corner' might work.jpg)
 
 
