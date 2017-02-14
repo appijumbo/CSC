@@ -45,7 +45,7 @@ Using the low resolution wireframe combined with the toastmasters branding, a fi
 
 ![Toastmaster design 2](./design_Info/Toastmaster design_2of2.jpg)
 
-Brand legality considerations
+###Brand legality considerations
  As the club is an affiliate toastmaster group, during design phase it was initially unclear if indeed the official Toastmaster brand material could be used however, so an alternative colour scheme and logo was created as a backup. 
 
 * alternative branding using different colour palette and new logo designed
