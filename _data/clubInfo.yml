@@ -1,15 +1,24 @@
 clubName: 'Chester Speaking Club'
 
-welcome: 'Welcome to Chester Speaking Club, we are a small but growing Toastmaster affiliated club based in Chester UK.  Since 1924, Toastmasters International has been recognized as the leading organization dedicated to communication and leadership skill development. Through its worldwide network of clubs, each week Toastmasters helps more than a quarter million men and women of every ethnicity, education level and profession build their competence in communication so they can gain the competence to lead others.'
+welcome: 'Welcome to Chester Speaking Club, we are a small but growing Toastmaster affiliated club based in Chester UK.  Since 1924, Toastmasters International has been recognized as the leading organization dedicated to communication and leadership skill development. Through its worldwide network of clubs, each week Toastmasters helps more than a quarter of a million men and women of every ethnicity, education level and profession build their competence in communication so they can gain the competence to lead others'
 
-whereWeMeet: 'We meet every second and fourth Thursday of the month at The Lock Keeper in Chester which is just off Frodsham Street by the canal and close to Tesco and Gorse Stacks bus station.'
+whereWeMeet: 'We meet every second and fourth Thursday of the month at The Lock Keeper in Chester which is just off Frodsham Street by the canal and close to Tesco and Gorse Stacks bus station'
 
 googlemap: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2390.3698643344965!2d-2.8901101481896743!3d53.193282679848934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487add4f51a7afa9%3A0x6f1b218e635e1991!2sThe+Lock+Keeper!5e0!3m2!1sen!2suk!4v1484049626862
   
 whyWeSpeak: 'Our members speak for all sorts of reasons, here are just a few'
 
-sayHello: 'Were a very friendly club so please feel free to contact us if you have any questions and want to say hello'
+sayHello: "We\'re a very friendly club so please feel free to contact us if you have any questions and want to say hello"
 
 clubEmail: info@chesterspeaking.club
 
 meetupApi: https://api.meetup.com/Chester-Speaking-Club/events?photo-host=public&page=1&sig_id=155522042&only=time&sig=9176d30934d8d1de7af5c64931c6786adbb1f0d5
+
+meetupSite: https://www.meetup.com/Chester-Speaking-Club/
+
+facebookSite: https://www.facebook.com/groups/713215312151407/
+
+twitterSite: https://twitter.com/
+
+copyrightDate: '2017'
+

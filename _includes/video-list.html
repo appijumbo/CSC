@@ -1,10 +1,10 @@
 {% for vidsection in site.pages %}
     {% if vidsection.subject == include.subject %}
 
-<div id="meetingInfo1" class="meetingInfo">
+<div class="meetingInfo">
     <div class="meeting-image">
         <a href="{{vidsection.link}}" alt="{{vidsection.alt}}">
-            <img src="{{site.baseurl}}/img/vidsection/{{vidsection.image}}">
+            <img data-src="{{site.baseurl}}/img/vidsection/{{vidsection.image}}" width="300px" height="150px" alt="{{vidsection.alt}}">
         </a>
     </div>
     <div class="meeting-panel">

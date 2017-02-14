@@ -243,6 +243,11 @@ fieldset[disabled] .btn-xl.active {
 }
 
 
+a.navbar-brand.page-scroll.logo_picntext>svg{
+        width: 120px;
+        height: 100px;
+    }
+
 
 
 .btn:focus,
@@ -506,10 +511,6 @@ aside.clients img {
         GOOGLE MAP iFrame style                   
 *****************************************************************************/
 
-#map {
-        width: 100%;
-        height: 300px;
-      }
 
 .map {
         
@@ -520,8 +521,18 @@ aside.clients img {
 }
 
 
+iframe {
+	border: none;
+	width: 100%;
+	height: 574px;
+	border: 7px solid #a0b2b1;  /*  grey  */
+}
 
-
+iframe:hover,
+iframe:focus,
+iframe:active{
+	border: 7px solid #fed136;  /*  yellow  */
+}
 
 /*****************************************************************************
         GENERAL EMAIL CONTACT SECTION                
@@ -790,6 +801,7 @@ footer .list-inline.quicklinks:hover{
 }
 
 
+/*
 footer .tsandcs[data-display="hidden"]{
     display: none;
 }
@@ -800,7 +812,7 @@ footer .tsandcs[data-display="show"]{
     font-size: 1.2rem;
     color: white;
 }
-
+*/
 
 
 /*****************************************************************************
@@ -818,7 +830,7 @@ footer .tsandcs[data-display="show"]{
     a {
 	touch-action: manipulation;
 }
-    a.navbar-brand.page-scroll.logo_picntext>img{
+    a.navbar-brand.page-scroll.logo_picntext>svg{
         display:none;
         touch-action: manipulation;
     }
@@ -829,13 +841,18 @@ footer .tsandcs[data-display="show"]{
     
     .header_general {
     background-image: url(../img/header-general-small.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     border: none;
 }
 
+/*
 .header_members {
     background-image: url(../img/membersLounge/header-members-grey-small.jpg);
+    background-size: 100%;
     border: none;
 }
+*/
     
     .intro-text {
     margin-top: 5px;
@@ -965,7 +982,7 @@ footer .tsandcs[data-display="show"]{
 } 
 
 @media (max-width:767px) and (orientation: landscape) {
-    a.navbar-brand.page-scroll.logo_picntext>img{
+    a.navbar-brand.page-scroll.logo_picntext>svg{
         touch-action: manipulation; 
         display:none;
     }
@@ -976,13 +993,18 @@ footer .tsandcs[data-display="show"]{
     
     .header_general {
     background-image: url(../img/header-general-small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border: none;
 }
 
+/*
 .header_members {
     background-image: url(../img/membersLounge/header-members-grey-small.jpg);
+    background-size: 100%;
     border: none;
 }
+*/
     
     header .intro-text .intro-heading {
         top: 190px;
@@ -1132,21 +1154,33 @@ footer .tsandcs[data-display="show"]{
         margin-right: 3vw;
     }
     
+
+ a.navbar-brand.page-scroll.logo_picntext>svg{
+        touch-action: manipulation;
+        display:none;
+    }
+
     .header_general {
     background-image: url(../img/header-general-small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border: none;
 }
 
+/*
 .header_members {
     background-image: url(../img/membersLounge/header-members-grey-wide1.jpg);
+    background-size: 100%;
     border: none;
     margin-top: 220px;
 }
+*/
     
      header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px
-    }
+}
+
     header .intro-text .intro-lead-in {
        font-family: 'Montserrat', 'Arial', sans-serif;
         font-style: italic;
@@ -1154,6 +1188,7 @@ footer .tsandcs[data-display="show"]{
         line-height: 40px;
         margin-bottom: 25px
     }
+
     header .intro-text .intro-heading {
      font-family: 'Montserrat', 'Arial', sans-serif;
     text-transform: uppercase;
@@ -1217,7 +1252,7 @@ footer .tsandcs[data-display="show"]{
     font-size: 3rem;
     z-index: 2000;
     transition: all 0.2s cubic-bezier(.76, .27, .31, 1.25);
-      background-repeat: no-repeat;
+    background-repeat: no-repeat;
     }
     
     
@@ -1305,15 +1340,26 @@ footer .tsandcs[data-display="show"]{
         font-size: 1.5em
     }
     
+ a.navbar-brand.page-scroll.logo_picntext>svg{
+        touch-action: manipulation;
+        display:none;
+    }
+
     .header_general {
     background-image: url(../img/header-general-small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border: none;
 }
 
+
+/*
 .header_members {
     background-image: url(../img/membersLounge/header-members-grey-small.jpg);
+    background-size: 100%;
     border: none;
 }
+*/
     
      header .intro-text {
         padding-top: 300px;
@@ -1380,7 +1426,7 @@ footer .tsandcs[data-display="show"]{
     top: 110px;
     z-index: 2000;
     transition: all 0.2s cubic-bezier(.76, .27, .31, 1.25);
-      background-repeat: no-repeat;
+    background-repeat: no-repeat;
     }
     
     
@@ -1446,6 +1492,8 @@ footer .tsandcs[data-display="show"]{
 /*******  assume click & hover dominant   *******/
 
 @media (min-width:992px) and (max-width: 1199px)  and (orientation: portrait) {
+
+
     .navbar-default {
         background-color: #772432; /* toast dark red */ 
         padding: 25px 0;
@@ -1474,18 +1522,26 @@ footer .tsandcs[data-display="show"]{
         margin-right: 3vw;
     }
     
+
+
     .header_general {
     background-image: url(../img/header-general-bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border: none;
     margin-top: 200px;
 }
 
+/*
 .header_members {
     background-image: url(../img/membersLounge/header-members-grey-bg4.jpg);
+    background-size: 100%;
     border: none;
     margin-top: 200px;
 }
     
+*/
+
     .meetingInfo{
         display: flex;
         flex-direction: column;
@@ -1597,22 +1653,31 @@ footer .tsandcs[data-display="show"]{
 }
 
 @media (min-width:992px) and (max-width: 1199px)  and (orientation: landscape) {
+
+
     ul.nav.navbar-nav.navbar-right{
         margin-right: 3vw;
     }
     
     .header_general {
     background-image: url(../img/header-general-bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     border: none;
     margin-top: 180px;
 }
 
+
+/*
 .header_members {
     background-image: url(../img/membersLounge/header-members-grey-bg4.jpg);
+    background-size: 100%;
     border: none;
     margin-top: 180px;
 }
+*/
     
+
     .meetingInfo{
         display: flex;
         flex-direction: column;
@@ -1665,7 +1730,7 @@ footer .tsandcs[data-display="show"]{
     font-size: 3rem;
     z-index: 2000;
     transition: all 0.2s cubic-bezier(.76, .27, .31, 1.25);
-      background-repeat: no-repeat;
+    background-repeat: no-repeat;
     }
     
     
@@ -1728,18 +1793,24 @@ footer .tsandcs[data-display="show"]{
 }
 
 @media (min-width:1200px){
-    
+
     header.header_general{
     padding-top: 30vh;
     background-image: url(../img/header-general-bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     border: none;
 }
 
+/*
 .header_members {
     padding-top: 30vh;
     background-image: url(../img/membersLounge/header-members-grey-bg4.jpg);
+    background-size: 100%;
     border: none;
 }
+*/
+
      header .intro-text .intro-heading {
         font-family: 'Montserrat', 'Arial', sans-serif;
         text-transform: uppercase;
@@ -1775,11 +1846,11 @@ footer .tsandcs[data-display="show"]{
     }
     
     .meeting-panel{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin: 20px;
-        width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+    width: 70%;
     }
     
     .centerSocial{
@@ -1854,8 +1925,6 @@ footer .tsandcs[data-display="show"]{
     position:absolute;
     transform:translateY(-30px)
     }
-    
-
 
     
 } 

@@ -1,2 +1,14 @@
-baseurl: /CSC
-exclude: ['README.md']
+baseurl: 
+
+exclude:
+- README.md
+- .gitignore
+- /css/css_uncompressed
+- /js/js_uncompressed
+
+# Google services
+google_analytics: UA-90630240-1
+
+#gems:
+#- jekyll-sitemap
+

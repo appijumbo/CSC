@@ -1,3 +1,5 @@
+/*global document: false */
+/*jshint jquery: true, es5: true, quotmark: double, strict: true*/
 /*
  * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -8,18 +10,20 @@
 //  top is offset by 180px to make up for nav bar thickness
 
 jQuery( document ).ready(function( $ ) {
+"use strict";
+
 
         $(function() {
-            $('body').on('click', '.page-scroll a', function(event) {
+            $("body").on("click", ".page-scroll a", function(event) {
                 var $anchor = $(this);
-                $('html, body').stop().animate({
-                    scrollTop: $($anchor.attr('href')).offset().top -180
-                }, 1500, 'easeInOutExpo');
+                $("html, body").stop().animate({
+                    scrollTop: $($anchor.attr("href")).offset().top -180
+                }, 1500, "easeInOutExpo");
                 event.preventDefault();
             });
 
+            /*
             $('#tandcs_link').toggle(function() {
-                console.log("terms clicked");
                     $('#tandcs').attr('data-display','show');
                     $('html,body').animate({
                     scrollTop: $('#tandcs').offset().top -245
@@ -28,6 +32,8 @@ jQuery( document ).ready(function( $ ) {
                     function() {
                     $('#tandcs').attr('data-display','hidden');
                     });
+            */
+
             });
 
 
@@ -45,13 +51,13 @@ jQuery( document ).ready(function( $ ) {
 
         // Highlight the top nav as scrolling occurs
         // make sure when scroll the nav bar thickness is also offset
-        $('body').scrollspy({
-            target: '.navbar-fixed-top', offset:200
+        $("body").scrollspy({
+            target: ".navbar-fixed-top", offset:200
         });
 
         // Closes the Responsive Menu on Menu Item Click
-        $('.navbar-collapse ul li a').click(function() {
-            $('.navbar-toggle:visible').click();
+        $(".navbar-collapse ul li a").click(function() {
+            $(".navbar-toggle:visible").click();
         });
 
 });

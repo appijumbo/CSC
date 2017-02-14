@@ -1,8 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,9 +22,10 @@
     <link href="{{site.baseurl}}/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="{{site.baseurl}}/css/style.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/style.min.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"> -->
+    <link href="{{site.baseurl}}/css/font.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,7 +53,8 @@
                      <div class="container">
                          
                              <a class="navbar-brand page-scroll logo_picntext" href="#page-top">
-                             <img src="{{site.baseurl}}/img/logos/Blue_logo_120x100.png" alt="brand">
+                             <!-- <img src="{{site.baseurl}}/img/logos/Blue_logo_120x100.png" width="120px" height="100px" alt="brand"> -->
+                             {% include clubLogoSvg.html %}
                              {{ site.data.clubInfo.clubName }}
                              </a>
                          
@@ -89,25 +92,25 @@
     <section id="social" class="centerSocial">
             <div id="socialbanner" class="flexContainer">
                 <div class="socialIcon">
-                    <a href="http://www.meetup.com">
+                    <a href="{{ site.data.clubInfo.meetupSite }}">
                        
-                        <svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" viewBox="0 0 100 100"><path d="M50 0C17.6-1.2-8.5 34.2 2.2 64.8c8.4 31.3 50 45.8 76 26.5 27.5-17.3 29-61.3 3-80.5C72 3.8 61 0 50 0zm8.2 33c6 .5 2.5 8.4 3.4 12.6.2 1.7-.8 7 1.2 3.4 3.4 1 4.4 5-.2 4-3.8 1.2 1.3 9-3.2 9.6-2 .3-1-3-1.4-4.2 0-1.6 0-3.2-.2-4.8-3 .5-6.4-3-1.2-2.8 2 0 .5-3.6.7-5 .2-3.7-2.3-10.4 1-12.7zm-38.5 6.5c4-1 6 2 6 5.8 1 4.6 1.7 9.2 3 13.7 1.8 3.7-6 4-4.7 0-1.2-2.5-2-10-2.7-9-.6 3.2.4 7.6-1.5 10.4-1.5-.3-3.7 1-4.7-.3-1-1.6-2.3-3.4-3.3-5.2.4 3 .7 7.2-4 6.2-1.4-4.3-1.3-9.2-1-13.7.2-1.8-.4-4.3 2.3-4 4-1 4 4.6 6 7 1.3 4 1-1.5 1.7-3 .7-2.6 1.4-5.5 3-7.8zm29 .8c4.8-.2 4.6 4.5 3.5 8-.3 2-.3 4-.3 5.7-3 1-9.3-1-5.4 4 1.5 5 7.8-3 7.7 2.3-4 2.5-9 1.4-11.8-2.2-1.6-2.3-1.4-5.7-.3-8.3.7-3.6 2.7-8 6.4-9.4zm-13 .7c6-.2 4.6 7.3 4.2 11.4-2.3 2-9-1.3-6.3 5 .4 4.4 8.8-.5 8 3C37.3 61.5 33 63 30 59c-1.8-4-1.2-9.4.5-13.5 1.2-2 3-4 5-4.5zm52.4.4c5 0 7.6 4.4 6.2 8.8-1.2 4.8-5.3 9-10 10.3 0 3.3 0 6.8.5 10-6 2.2-4-6-4.8-9.5-3-3 1.4-5.4 1-9.4.8-4 2.6-9 7-10.2zm1.3 3.6c-3.6 2.6-3.5 7.3-5 11 3-.6 6.6-6 5.3-10.3 0 0 0-.8-.3-.7zm-53.8 1c-2.4 1.3-1 7.3.2 3.2 0-1 0-2.2-.2-3.3zM48 46c-1.3 1.6-2.2 8.2.2 4.6V46zm19.3 1c6 0 3.8 7 4.3 10.8 1.8 1.8 4-5.6 3.4-8.2-1.2-4 6-1.8 4.7 1.2-.2 4-3.2 6.5-4.6 8.7-3.3 3.2-8 1.7-7.7-3.3-.3-3-1.4-6.8 0-9.3z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" viewbox="0 0 100 100"><path d="M50 0C17.6-1.2-8.5 34.2 2.2 64.8c8.4 31.3 50 45.8 76 26.5 27.5-17.3 29-61.3 3-80.5C72 3.8 61 0 50 0zm8.2 33c6 .5 2.5 8.4 3.4 12.6.2 1.7-.8 7 1.2 3.4 3.4 1 4.4 5-.2 4-3.8 1.2 1.3 9-3.2 9.6-2 .3-1-3-1.4-4.2 0-1.6 0-3.2-.2-4.8-3 .5-6.4-3-1.2-2.8 2 0 .5-3.6.7-5 .2-3.7-2.3-10.4 1-12.7zm-38.5 6.5c4-1 6 2 6 5.8 1 4.6 1.7 9.2 3 13.7 1.8 3.7-6 4-4.7 0-1.2-2.5-2-10-2.7-9-.6 3.2.4 7.6-1.5 10.4-1.5-.3-3.7 1-4.7-.3-1-1.6-2.3-3.4-3.3-5.2.4 3 .7 7.2-4 6.2-1.4-4.3-1.3-9.2-1-13.7.2-1.8-.4-4.3 2.3-4 4-1 4 4.6 6 7 1.3 4 1-1.5 1.7-3 .7-2.6 1.4-5.5 3-7.8zm29 .8c4.8-.2 4.6 4.5 3.5 8-.3 2-.3 4-.3 5.7-3 1-9.3-1-5.4 4 1.5 5 7.8-3 7.7 2.3-4 2.5-9 1.4-11.8-2.2-1.6-2.3-1.4-5.7-.3-8.3.7-3.6 2.7-8 6.4-9.4zm-13 .7c6-.2 4.6 7.3 4.2 11.4-2.3 2-9-1.3-6.3 5 .4 4.4 8.8-.5 8 3C37.3 61.5 33 63 30 59c-1.8-4-1.2-9.4.5-13.5 1.2-2 3-4 5-4.5zm52.4.4c5 0 7.6 4.4 6.2 8.8-1.2 4.8-5.3 9-10 10.3 0 3.3 0 6.8.5 10-6 2.2-4-6-4.8-9.5-3-3 1.4-5.4 1-9.4.8-4 2.6-9 7-10.2zm1.3 3.6c-3.6 2.6-3.5 7.3-5 11 3-.6 6.6-6 5.3-10.3 0 0 0-.8-.3-.7zm-53.8 1c-2.4 1.3-1 7.3.2 3.2 0-1 0-2.2-.2-3.3zM48 46c-1.3 1.6-2.2 8.2.2 4.6V46zm19.3 1c6 0 3.8 7 4.3 10.8 1.8 1.8 4-5.6 3.4-8.2-1.2-4 6-1.8 4.7 1.2-.2 4-3.2 6.5-4.6 8.7-3.3 3.2-8 1.7-7.7-3.3-.3-3-1.4-6.8 0-9.3z"/></svg>
         
                     </a>
                 </div>
                    
                 <div class="socialIcon">
-                    <a href="https://www.facebook.com/groups/713215312151407/">
+                    <a href="{{ site.data.clubInfo.facebookSite }}">
                     
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100"><path d="M50 0A50 50 0 0 0 0 50a50 50 0 0 0 50 50 50 50 0 0 0 50-50A50 50 0 0 0 50 0zm10.3 14.8c5.4 0 9.8.2 11 .4v12h-7.6c-6 0-7 2.6-7 6.4V42h14.2l-2 13.3H56.6v34.3c-10 0-1.7-.3-15 0V55.3H28.8v-13h12.8v-9.8c0-11.6 7.5-17.7 18.7-17.7z"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" width="100" height="100"><path d="M50 0A50 50 0 0 0 0 50a50 50 0 0 0 50 50 50 50 0 0 0 50-50A50 50 0 0 0 50 0zm10.3 14.8c5.4 0 9.8.2 11 .4v12h-7.6c-6 0-7 2.6-7 6.4V42h14.2l-2 13.3H56.6v34.3c-10 0-1.7-.3-15 0V55.3H28.8v-13h12.8v-9.8c0-11.6 7.5-17.7 18.7-17.7z"/></svg>
                     
                     </a>                     
                 </div>
                 
                 <div class="socialIcon">
-                    <a href="https://twitter.com">
+                    <a href="{{ site.data.clubInfo.twitterSite }}">
                      
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100"><path d="M50 0A50 50 0 0 0 0 50a50 50 0 0 0 50 50 50 50 0 0 0 50-50A50 50 0 0 0 50 0zm14.8 18.7c4.6 0 8.7 2 11.5 5 3.6-.7 7-2 10-3.8-1 3.6-3.6 6.7-7 8.6 3.3-.4 6.4-1.2 9.2-2.5-2 3.3-4.8 6-8 8.3l.2 2c0 21-16 45-45 45-9 0-17.2-2.6-24.2-7h3.8c7.4 0 14.2-2.4 19.6-6.6-7-.2-13-4.7-15-11l3 .3c1.5 0 3-.2 4.3-.6C20 55 14.6 48.6 14.6 41v-.3c2 1.2 4.6 2 7.2 2-4.3-2.8-7-7.7-7-13.2 0-2.8.7-5.6 2-8 8 9.7 19.5 16 32.6 16.6-.2-1-.4-2.3-.4-3.5 0-8.7 7-15.8 15.8-15.8z"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" width="100" height="100"><path d="M50 0A50 50 0 0 0 0 50a50 50 0 0 0 50 50 50 50 0 0 0 50-50A50 50 0 0 0 50 0zm14.8 18.7c4.6 0 8.7 2 11.5 5 3.6-.7 7-2 10-3.8-1 3.6-3.6 6.7-7 8.6 3.3-.4 6.4-1.2 9.2-2.5-2 3.3-4.8 6-8 8.3l.2 2c0 21-16 45-45 45-9 0-17.2-2.6-24.2-7h3.8c7.4 0 14.2-2.4 19.6-6.6-7-.2-13-4.7-15-11l3 .3c1.5 0 3-.2 4.3-.6C20 55 14.6 48.6 14.6 41v-.3c2 1.2 4.6 2 7.2 2-4.3-2.8-7-7.7-7-13.2 0-2.8.7-5.6 2-8 8 9.7 19.5 16 32.6 16.6-.2-1-.4-2.3-.4-3.5 0-8.7 7-15.8 15.8-15.8z"/></svg>
                       
                     </a>
                 </div>
@@ -120,26 +123,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-left">
-                    <span class="copyright">&copy; {{ site.data.clubInfo.clubName }} 2016</span>
+                    <span class="copyright">&copy; {{ site.data.clubInfo.clubName }} {{ site.data.clubInfo.copyrightDate }}</span>
                 </div>
+
                 <div class="col-md-6 text-right">
-                        <a href="#tandcs_link" class="list-inline quicklinks">Terms</a>
+                        <a href="https://github.com/adminCSC/CSC/wiki/T-&-C's" type="button" class="btn list-inline quicklinks">Terms</a>
                 </div>
             </div>
         </div>
     
-        <div class="container">
-            <div class="row">
-                <div id="tandcs" class="col-lg-10 col-lg-offset-1 tsandcs" data-display="hidden">
-                {% include termsandconditions.html %}
-                </div>
-            </div>
-        </div>    
+
     </footer>
          
 
      <!--  SCRIPTS  -->
      {% include scripts.html %}
+     
+     {% include defer.html %}
 
 </body>
 

@@ -1,8 +1,8 @@
-
+/*global document: false */
+/*jshint jquery: true, es5: true, quotmark: double, strict: true*/
 (function(){    // put JS in an IIFE to keep date variables localy scoped
+"use strict";
 
-
-    
     var meetupApi =$("#meetupApi").attr("data-meetupapi"); 
     console.log("\nmeetupApi = " + meetupApi);
     
@@ -14,8 +14,8 @@
     /***********  Get time from secure meetup API   *****/
     $.ajax({
         url: meetupApi,
-        method:'GET',
-        dataType: 'jsonp',
+        method:"GET",
+        dataType: "jsonp",
         /*dataType: 'jsonp': If this line is removed this ajax always fails 'XMLHttpRequest cannot load https://api.meetup.com/Chester-Speaking-Club..... Origin http://localhost:4000 is not allowed by Access-Control-Allow-Origin' error.
         So use the JSONP (JSON Padding) interface. It allows you to make external domain requests without proxy servers or fancy header stuff. http://usejquery.com/blog/jquery-cross-domain-ajax-guide */
         success: function(meetupData){
