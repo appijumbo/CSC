@@ -28,7 +28,7 @@ After consulting the main Toastmaster website, information on branding was found
 Information such as
   *brand Visuals – including colour schemes 
 
-![brand manual visuals](../design_Info/brand manual visuals 1.jpg)
+![brand manual visuals](./design_Info/brand manual visuals 1.jpg)
 
   *text – including elevator pitch with a choice of 50 or 100 words to use as main introduction
 
@@ -58,11 +58,11 @@ However initially the date would be hard coded, ensuring the CSS worked across p
 
 ### 4) High Fidelity Design
 
-![Toastmaster design 1](../design_Info/Toastmaster design_1of2.jpg)
+![Toastmaster design 1](./design_Info/Toastmaster design_1of2.jpg)
 
-![Toastmaster design 2](../design_Info/Toastmaster design_2of2.jpg)
+![Toastmaster design 2](./design_Info/Toastmaster design_2of2.jpg)
 
-![Alternative Branding - Early members page concept](../design_Info/early ideas on how 'members corner' might work.jpg)
+![Alternative Branding - Early members page concept](./design_Info/early ideas on how 'members corner' might work.jpg)
 
 
 
