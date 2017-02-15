@@ -62,18 +62,24 @@ After consultation and advice it was felt that the single page design was too lo
 
 ### 5) Coding the site
 ####Choosing a dynamic or static website - Wordpress or Jekyll
-It was clear that the site would need to interact with users, thus on the face of it a dynamic website was required. However it was unclear if a complete Wordpress or Jekyll site would be best. Wordpress is well established and has a customer facing platform so initially the site was developed with Wordpress in mind.
+It was clear that the site would need to interact with users, thus on the face of it a dynamic website was required. However should a traditional Wordpress solution or would a more modern approach using a static site builder such as Jekyll be best? Wordpress is well established and has a customer facing platform so initially the site was developed with Wordpress in mind.
+
+####Wordpress design
 
 Wishing to keep code focused, a [static site](https://github.com/appijumbo/ToastStatic/tree/gh-pages) was built first, then convert to a [Wordpress version](https://github.com/appijumbo/ToastWordpress)
 
-
-####Wordpress design
-The [final wordpress development version](https://github.com/appijumbo/ToastWordpress) requires a local wordpress server is required. In this case Mamp was used.
+The final Wordpress development version requires a local Wordpress server is required such as [Mamp](https://www.mamp.info/en/downloads/).
 
 
+The process to convert a static site into a Wordpress site requires many changes to the code. Ata basic level splitting the header, main part and footer into separate files and re-saving them instead of html as php formats. Furthermore various Wordpress ‘hooks’ need to be included to enable php functions.
 
-Improving the form with UK regEx for telephone numbers
+A [bootstrap 3 theme](https://startbootstrap.com/template-overviews/freelancer/) was used as a template for building the site. However this may have been a little ‘over kill’ in hindsight. Also the theme use standard CSS and not Sass. In future a Sass orientated process is preferred simply because the bootstrap css takes more Kb to download than what is actually used on the site.
 
+Here a good explanation for [converting a Bootstrap 3 theme to Wordpress](https://www.youtube.com/watch?v=OQY3dNHLt1I&list=PLtwuv70Lf-ZlTLcr0y9TdmcmfhzMUywsX&index=26) which considers most of these factors.
+
+
+####Improving the form with UK regEx for telephone numbers
+Smaller improvements included changing the RegEx expressions inside the 
 
 
 
