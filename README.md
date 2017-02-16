@@ -4,13 +4,13 @@ https://appijumbo.github.io/CSC/
 
 The [version used by the club](https://github.com/adminCSC/CSC) is a fork of appijumbo version, though the actual [club website](http://chesterspeaking.club) has a customised website address.
 
-##Objective
+## Objective
 A Toastmaster club website was to be designed and built. Toastmaster is an established international brand and its main website is a very high quality. However its membership default website that many clubs use is very dated and therefore a fresher more modern design and functionality was required.
 
 After some consideration it was felt that a two page design, first page qualify and quantify potential new members. Second page, provide resources, news, polls or similar for the group members. 
 
-##Design process
-###1) Wireframes
+## Design process
+### 1) Wireframes
 
 Ostensibly the mobile wireframe was the same as the desktop one but employed single columns and a ‘burger’ menu. Hence although the design was ‘mobile first’ the hardest part from a design perspective was understanding how the desktop sized screen would work.
 
@@ -18,7 +18,7 @@ Ostensibly the mobile wireframe was the same as the desktop one but employed sin
 
 ![wireframe design part 2](./design_Info/toastmaster wireframe 2_.jpg)
 
-###2) Brand research 
+### 2) Brand research 
 After consulting the main Toastmaster website, [information on branding](https://www.toastmasters.org/Resources/Logos-Images-and-Templates) was found that could be directly implemented in the website design.   
 
 Including:
@@ -46,7 +46,7 @@ Using the low resolution wireframe combined with the toastmasters branding, a fi
 
 ![Toastmaster design 2](./design_Info/Toastmaster design_2of2.jpg)
 
-###Brand legality considerations
+### Brand legality considerations
  As the club is an affiliate toastmaster group, during design phase it was initially unclear if indeed the official Toastmaster brand material could be used however, so an alternative colour scheme and logo was created as a backup. 
 
 * alternative branding using different colour palette and new logo designed
@@ -61,7 +61,7 @@ After consultation and advice it was felt that the single page design was too lo
 
 
 ### 5) Coding the site
-####Choosing a dynamic or static website - Wordpress or Jekyll
+#### Choosing a dynamic or static website - Wordpress or Jekyll
 It was clear that the site would need to interact with users, thus on the face of it a dynamic website was required. However should a traditional Wordpress solution or would a more modern approach using a static site builder such as Jekyll be best? Wordpress is well established and has a customer facing platform so initially the site was developed with Wordpress in mind.
 
 ####Wordpress design
@@ -83,27 +83,34 @@ Smaller improvements included changing the RegEx expressions inside the
 
 
 
-####Introduction of Github and Git control
+#### Introduction of Github and Git control
+After the Wordpress version was created a particular frustration was the need to easily show code to prospective parties and document the development. IT was clear that I needed to use Git, hence time was spent learning git and Github. 
+
+Consequently having done some short courses, including the [Github for Developers course](https://services.github.com/training/) I [produced a document](https://github.com/appijumbo/Git-Github-for-Newbies) to reflect what I learned, capturing Git and Github under one roof.
 
 
+#### Jekyll Design
+Having created a wordpress website and learned some Git and using Github. After discussions with other devs and bearing in mind that the initial first phase was very focused on finding new members, so as such dosn't change much ie static, I decided to create the [Toastmasters website as a Jekyll page](https://github.com/appijumbo/CSC).
+
+This course by [Thomas Bradley](https://www.youtube.com/watch?v=oiNVQ9Zjy4o&index=4&list=PLtwuv70Lf-Zn4b05TlJIqPRn1dEPS78fO) prvoides a good basis for building Jekyll website.
+
+There were some good benifits from using Jekyll namley the clubs details could be contained in a config file such that it would be quite easy for another club to use without having to go through every line of code plus the ease of creating a site via Gihub pages and cutomising its domain.
 
 
+The one issue that croped up was the need to get information from a form to be sent via email. The code was designed for php, ie a dynamic site. However this is a common problem and one of the solutions is to use a service such as [formspree](https://formspree.io) for email. Formspree is free under a 1000 submissions a month withich is massivley more than a typical club would expect (typically we would expect say 10 per month)
 
-####Jekyll Design
-Initial phase Very focused on finding new members.
-Use formspree for email
-Linking Github repo gh-pages to a custom Domain (CNAME and A record)
+Moreover by linking Github repo gh-pages to a custom Domain by setting a CNAME file in the Github repo and an A record for github site in the purchased site domain. SO from a user perspective they are unaware that its a github site.
 
-###To Do’s
+## To Do’s
 
-###SEO
+### SEO
 Chrome dev tool’s PageSpeed
 https://varvy.com
 
-###Page 2 - Membership
+### Page 2 - Membership
 The club accountant has suggested that a electronic payment or some other way of filling in a form and automating the club membership should be built in the site. This would suit the second page.
 
-##Lessons Learnt
+## Lessons Learnt
 Have implemented a far better version control system
 
 Sass not CSS
