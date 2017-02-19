@@ -159,8 +159,8 @@ One slight issue was using Git with Jekyll. One needs to be carefull about the _
 
 
 ### Sass not CSS
-
-Use Bootstrap?
+In future I would much prefer to use Sass and not CSS (unless its very simple CSS).
+I find the need to import the whole CSS in from Bootstrap quite an overkill, though Bootstrap 4 supports Sass its not quite ready yet. Alternitivley I may well use [Bourbon, Neat, Bitters and Refills](http://bourbon.io) which offer an alternative to the Bootstrap approach.
 
 ### Gulp
 In future I’ll use Gulp for minify etc
