@@ -64,29 +64,29 @@ After consultation and advice it was felt that the single page design was too lo
 #### Choosing a dynamic or static website - Wordpress or Jekyll
 It was clear that the site would need to interact with users, thus on the face of it a dynamic website was required. However should a traditional Wordpress solution or would a more modern approach using a static site builder such as Jekyll be best? Wordpress is well established and has a customer facing platform so initially the site was developed with Wordpress in mind.
 
-####Wordpress design
+#### Wordpress design
 
 Wishing to keep code focused, a [static site](https://github.com/appijumbo/ToastStatic/tree/gh-pages) was built first, then convert to a [Wordpress version](https://github.com/appijumbo/ToastWordpress)
 
 The final Wordpress development version requires a local Wordpress server is required such as [Mamp](https://www.mamp.info/en/downloads/).
 
 
-The process to convert a static site into a Wordpress site requires many changes to the code. Ata basic level splitting the header, main part and footer into separate files and re-saving them instead of html as php formats. Furthermore various Wordpress ‘hooks’ need to be included to enable php functions.
+The process to convert a static site into a Wordpress site requires many changes to the code. At a basic level splitting the header, main part and footer into separate files and re-saving them instead of html as php formats. Furthermore various Wordpress ‘hooks’ need to be included to enable php functions.
 
 A [bootstrap 3 theme](https://startbootstrap.com/template-overviews/freelancer/) was used as a template for building the site. However this may have been a little ‘over kill’ in hindsight. Also the theme use standard CSS and not Sass. In future a Sass orientated process is preferred simply because the bootstrap css takes more Kb to download than what is actually used on the site.
 
 Here a good explanation for [converting a Bootstrap 3 theme to Wordpress](https://www.youtube.com/watch?v=OQY3dNHLt1I&list=PLtwuv70Lf-ZlTLcr0y9TdmcmfhzMUywsX&index=26) which considers most of these factors.
 
 
-####Improving the form with UK regEx for telephone numbers
-Smaller improvements included changing the RegEx expressions inside the 
+#### Improving the Contact Form
+Smaller improvements included changing the RegEx expressions inside the contact form along with the messages giving feedback as the user types in information.  
 
 
 
-#### Introduction of Github and Git control
-After the Wordpress version was created a particular frustration was the need to easily show code to prospective parties and document the development. IT was clear that I needed to use Git, hence time was spent learning git and Github. 
+#### Git and Github for Web Dev Newbiee Guide
+After the Wordpress version was created a particular frustration was the need to easily show code to prospective parties and document the development. It was clear that Git and Github should be integral to project mangement, hence time was spent learning git and Github. 
 
-Consequently having done some short courses, including the [Github for Developers course](https://services.github.com/training/) I [produced a document](https://github.com/appijumbo/Git-Github-for-Newbies) to reflect what I learned, capturing Git and Github under one roof.
+Consequently having done some short courses, including the [Github for Developers course](https://services.github.com/training/) I [produced a document](https://github.com/appijumbo/Git-Github-for-Newbies) to reflect what I learned, capturing Git and Github under one roof. It it hoped this this will be improved and ammended overtime
 
 
 #### Jekyll Design
@@ -103,21 +103,60 @@ Moreover by linking Github repo gh-pages to a custom Domain by setting a CNAME f
 
 ## To Do’s
 
-### SEO
-Chrome dev tool’s PageSpeed
-https://varvy.com
+### Search Engine Optimisation (SEO)
+Using chrome dev tool’s PageSpeed some SEO has been done. However browser caching, specifying a cache validator, minifying HTML & JS needs to be done. Current score is 90/100.
 
-### Page 2 - Membership
-The club accountant has suggested that a electronic payment or some other way of filling in a form and automating the club membership should be built in the site. This would suit the second page.
+Additionaly the [Varvy](https://varvy.com) SEO tool was also employed. 
+
+In addition to PageSpeed this identified the need to switch to all HTTPS, the use of Sitemaps and robots.txt on the site as well as the tap area when in mobile usage being a little too small.
+
+All these issues need to be acted on.
+
+
+![varvy 1](./design_Info/varvy1.jpg)
+
+![varvy 2](./design_Info/varvy2.jpg)
+
+
+### Phase II  A Membership Page
+The club accountant has suggested that a electronic payment or some other way of filling in a form and automating the club membership should be built in the site. This would suit being included in a second page.
+
+Hence subsequent pages should perhaps include
+
+  * A membership signing Form, possibly done through say [Stripe](https://stripe.com/gb)
+  
+  * Resource links e.g. videos, articles from [Medium](https://medium.com) 
+  
+  * Polling for group concensous
+  
+  * Facebook link for News
+  
+  * A [Disqus](https://disqus.com) discussion forum
+  
+  * The roles for upcoming meetings are indicated as available, or whom is taking them. This should be simple
+  
+
+
+
+### Client Side Support
+At the moment the Jekyll code requires someone who is reasonably tech savvy. However many people are familiar with the Wordpress client side GUI access that make Wordpress easier to change. 
+There are a growing number of companies that a client-side GUI access to Jekyll for example [Forestry](https://forestry.io) or [CloudCannon](http://cloudcannon.com).
+
+It would be nice to experiment with siting up the site to use one of these in the hope that it will make it easier to use and adapt for more people.
+
+
 
 ## Lessons Learnt
 Have implemented a far better version control system
 
 Sass not CSS
+
 Use Bootstrap?
+
 In future I’ll use Gulp for minify etc
-Use [Vagrant](https://www.vagrantup.com) with [Salt](https://www.vagrantup.com/docs/provisioning/salt.html) to create a better work environment for Wordpress to be developed in.
 
 had problems managing multiple SSH accounts to interact with Github in MacOS
 
-Beaver Builder 
+I intend to use [Vagrant](https://www.vagrantup.com) with [Salt](https://www.vagrantup.com/docs/provisioning/salt.html) to create a better work environment for any future Wordpress sites to be developed in.
+
+Beaver Builder
