@@ -118,7 +118,7 @@ All these issues need to be acted on.
 ![varvy 2](./design_Info/varvy2.jpg)
 
 
-### Phase II  A Membership Page
+### Phase II
 The club accountant has suggested that a electronic payment or some other way of filling in a form and automating the club membership should be built in the site. This would suit being included in a second page.
 
 Hence subsequent pages should perhaps include
@@ -147,16 +147,29 @@ It would be nice to experiment with siting up the site to use one of these in th
 
 
 ## Lessons Learnt
-Have implemented a far better version control system
 
-Sass not CSS
+### Git and Github
+The biggest impact was implementing git and Github in my workflow. Once the basics of git had been grasped only occasionly did I need to 'rebase' or use some other more complicated git-flow. 
+I vhave been expermenting using the git GUI in Brackets my current text editor of choice. 
+Whilst I have found the Brackets git GUI usefull I've found the command line still is superior.
+
+Describing the development of the code for future reference as a README or in a Wiki has proven extreemly usefull and I would like to use this more in future project development.
+
+One slight issue was using Git with Jekyll. One needs to be carefull about the _site folder that re-builds itself when the site is being driven by the Jekyll server command. The local .gitignore directory needs to contain _site or similar. A little more work is needed to sort this issue out, however I have manged to work around it for the time being.
+
+
+### Sass not CSS
 
 Use Bootstrap?
 
+### Gulp
 In future I’ll use Gulp for minify etc
 
 had problems managing multiple SSH accounts to interact with Github in MacOS
 
+### Future Worpress sites
 I intend to use [Vagrant](https://www.vagrantup.com) with [Salt](https://www.vagrantup.com/docs/provisioning/salt.html) to create a better work environment for any future Wordpress sites to be developed in.
 
 Beaver Builder
+
+### Future Jekyll sites
