@@ -82,7 +82,6 @@ Here a good explanation for [converting a Bootstrap 3 theme to Wordpress](https:
 Smaller improvements included changing the RegEx expressions inside the contact form along with the messages giving feedback as the user types in information.  
 
 
-
 #### Git and Github for Web Dev Newbiee Guide
 After the Wordpress version was created a particular frustration was the need to easily show code to prospective parties and document the development. It was clear that Git and Github should be integral to project mangement, hence time was spent learning git and Github. 
 
@@ -99,7 +98,7 @@ There were some good benifits from using Jekyll namley the clubs details could b
 
 The one issue that croped up was the need to get information from a form to be sent via email. The code was designed for php, ie a dynamic site. However this is a common problem and one of the solutions is to use a service such as [formspree](https://formspree.io) for email. Formspree is free under a 1000 submissions a month withich is massivley more than a typical club would expect (typically we would expect say 10 per month)
 
-Moreover by linking Github repo gh-pages to a custom Domain by setting a CNAME file in the Github repo and an A record for github site in the purchased site domain. SO from a user perspective they are unaware that its a github site.
+Moreover by linking Github repo gh-pages to a custom Domain by setting a CNAME file in the Github repo and an A record for github site in the purchased site domain. Thus from a user perspective they are unaware that its a github site.
 
 ## To Do’s
 
@@ -135,15 +134,8 @@ Hence subsequent pages should perhaps include
   
   * The roles for upcoming meetings are indicated as available, or whom is taking them. This should be simple
   
-
-
-
-### Client Side Support
-At the moment the Jekyll code requires someone who is reasonably tech savvy. However many people are familiar with the Wordpress client side GUI access that make Wordpress easier to change. 
-There are a growing number of companies that a client-side GUI access to Jekyll for example [Forestry](https://forestry.io) or [CloudCannon](http://cloudcannon.com).
-
-It would be nice to experiment with siting up the site to use one of these in the hope that it will make it easier to use and adapt for more people.
-
+  * Add client-side support such as [Forestry](https://forestry.io) or [CloudCannon](http://cloudcannon.com). It would be nice to experiment with siting up the site to use one of these in the hope that it will make it easier to use and adapt for more people.
+  
 
 
 ## Lessons Learnt
@@ -163,13 +155,23 @@ In future I would much prefer to use Sass and not CSS (unless its very simple CS
 I find the need to import the whole CSS in from Bootstrap quite an overkill, though Bootstrap 4 supports Sass its not quite ready yet. Alternitivley I may well use [Bourbon, Neat, Bitters and Refills](http://bourbon.io) which offer an alternative to the Bootstrap approach.
 
 ### Gulp
-In future I’ll use Gulp for minify etc
+One of the problems I found during the SEO was the need to minify CSS, JS and HTML. Unfortunatly I hadn't set myself up with a build tool and had to use online minifying tools and similar.
 
-had problems managing multiple SSH accounts to interact with Github in MacOS
+In future I’ll use [Gulp](http://gulpjs.com) for [minifying and other needs such as optimising images](https://css-tricks.com/gulp-for-beginners/) (I did this individualy using Gimp for this site). 
+
+### Multiple Github accounts and switching to a Linux desktop
+One major frustration was that having multiple Github accounts did repeatdly cause password key access problems. I havn't yet got a complete solution, and had to hand manage my password system quite a lot. Ideally I can find a better solution in future. Perhaps switchinfg to Linux may help because I can more easily manage SSH.
 
 ### Future Worpress sites
-I intend to use [Vagrant](https://www.vagrantup.com) with [Salt](https://www.vagrantup.com/docs/provisioning/salt.html) to create a better work environment for any future Wordpress sites to be developed in.
+#### Vagrat and Salt
+I intend to use [Vagrant](https://www.vagrantup.com) with [Salt](https://www.vagrantup.com/docs/provisioning/salt.html) to create a better work environment for any future Wordpress sites to be developed in. This will isolate each wordpress develpment and should create a 'within a single disposable, consistent environment..'
 
-Beaver Builder
+#### Beaver Builder
+This is a GUI development tool for Wordpress. It allows site development with minimal coding. This may be the best option for Worpress development, however it dosn't support my need to understand the code. ITs not clear at this stage how/ if I will integrate its use in any future Wordpress developemnt.
 
 ### Future Jekyll sites
+#### Client Side Support
+At the moment the Jekyll code requires someone who is reasonably tech savvy. However many people are familiar with the Wordpress client side GUI access that make Wordpress easier to change. 
+There are a growing number of companies that a client-side GUI access to Jekyll for example [Forestry](https://forestry.io) or [CloudCannon](http://cloudcannon.com).
+
+It would be nice to experiment with siting up the site to use one of these in the hope that it will make it easier to use and adapt for more people.
