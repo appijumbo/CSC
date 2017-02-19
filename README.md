@@ -167,7 +167,7 @@ One major frustration was that having multiple Github accounts did repeatdly cau
 I intend to use [Vagrant](https://www.vagrantup.com) with [Salt](https://www.vagrantup.com/docs/provisioning/salt.html) to create a better work environment for any future Wordpress sites to be developed in. This will isolate each wordpress develpment and should create a 'within a single disposable, consistent environment..'
 
 #### Beaver Builder
-This is a GUI development tool for Wordpress. It allows site development with minimal coding. This may be the best option for Worpress development, however it dosn't support my need to understand the code. ITs not clear at this stage how/ if I will integrate its use in any future Wordpress developemnt.
+This is a GUI development tool for Wordpress. It allows site development with minimal coding. This may be the best option for Worpress development, however it dosn't support my need to understand the code. It's not clear at this stage how/ if I will integrate its use in any future Wordpress developemnt.
 
 ### Future Jekyll sites
 #### Client Side Support
