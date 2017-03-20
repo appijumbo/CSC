@@ -1,0 +1,1931 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    webkit-tap-highlight-color: #fed136;
+}
+
+/*****************************************************************************
+       GENERAL bootstrap                 
+*****************************************************************************/
+
+.text-muted {
+    color: #777;
+}
+
+.text-primary {
+    color: #fed136;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+p.large {
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+a {
+    color: #fed136;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #fec503;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h4{
+    color: #cd202c;  /*  toast bright red  */
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+.bg-darkest-gray {
+    background-color: #222;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #fed136;
+    border-color: #fed136;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #fec503;
+    border-color: #f6bf01
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    background-color: #fed136;  /* yellow */
+    border-color: #fed136;
+}
+
+.btn-primary .badge {
+    color: #fed136;
+    background-color: #fff;
+}
+
+.btn-xl {
+    color: #fff;
+    background-color: #fed136;
+    border-color: #fed136;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    color: #fff;
+    background-color: #fec503;
+    border-color: #f6bf01;
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+}
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    background-color: #fed136;
+    border-color: #fed136;
+}
+
+.btn-xl .badge {
+    color: #fed136;  /* yellow */
+    background-color: #fff;
+}
+
+
+/*   Put nav bar on the right  
+.navbar-nav{
+    float: right;
+}
+*/
+
+.navbar-default {
+    /* background-color: #004165; dark blue */
+    background-color: #772432;  /* dark red */
+    border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;  /*  white  */
+    text-shadow: 2px 2px 2px #000;
+   font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #fed136;  /*  yellow  */
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255, 255, 255, .02)
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #772432;  /* dark red */
+    border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #fed136;  /*  yellow  */
+}
+
+.navbar-default .nav li a {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    color: #fed136;  /*  yellow  */
+    outline: 0;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #772432; /* dark red */ 
+    background-color: #fed136;  /*  yellow  */
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #fed136;  /*  yellow  */
+}
+
+
+a.navbar-brand.page-scroll.logo_picntext>svg{
+        width: 120px;
+        height: 100px;
+    }
+
+
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}
+
+
+
+::-moz-selection {
+    text-shadow: none;
+    background: #fed136;
+}
+
+::selection {
+    text-shadow: none;
+    background: #fed136;
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+
+
+/*****************************************************************************
+       GENERAL HEADER INFO                   
+*****************************************************************************/
+
+
+header {
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: #fff
+}
+
+
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.intro-text {
+    margin-top: 100px;
+}
+
+header .intro-text .intro-lead-in {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+
+header .intro-text .intro-heading {
+    position: absolute;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    /* font-size: 50px; */
+    line-height: 6vw;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 6vw;
+    text-align: start;
+    width: 45vw;
+    top: 25vh;
+    text-align: left;
+}
+
+
+section h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+
+section h3.section-subheading {
+    font-size: 16px;
+   font-family: 'Montserrat', 'Arial', sans-serif;
+    text-transform: none;
+   font-style: normal;
+    font-weight: 400;
+    margin-bottom: 75px;
+    color: white;
+}
+
+
+.service-heading {
+    margin: 15px 0;
+    text-transform: none;
+}
+
+
+h4.section-heading {
+    color: #cd202c;  /* toast bright red  */
+}
+
+
+.section-heading {
+    color: white;  
+    
+}
+
+
+
+
+
+/*****************************************************************************
+Pages arn't styled with background blue, 
+instead a background class of blue i added to each 
+section so can easily choose anothe colour later                   
+*****************************************************************************/
+
+section.blueback {
+    color: #fff;
+    background: #004165; /*dark blue*/
+    padding-top: 5vh;
+}
+
+
+
+
+
+/*****************************************************************************
+       MENU & BUTTON YELLOW COLOR                    
+*****************************************************************************/
+
+.but-toast-yellow {
+    color: #004165; /*dark blue */
+    background-color: #fed136;  /* yellow  */
+    border: none;
+}
+
+.but-toast-yellow:hover {
+    color: white;
+    background-color: #cd202c;  /* toast light red  */
+    border: none;
+}
+
+
+
+
+
+/*****************************************************************************
+        LARGE TEXT TITLE ON MAIN HEADING PICTURE                   
+*****************************************************************************/
+
+div.intro-text {
+        padding-top: 450px;
+}
+
+
+
+
+
+
+/*****************************************************************************
+       MAIN MEETUP POST/LINK  GENERAL STYLE               
+*****************************************************************************/
+
+.btn_meetup{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 2rem;
+    background-repeat: no-repeat; 
+    width: 160px;
+    height: 133px;
+    color: white;
+    border: 0;
+    top: 44vh;
+    left: 70vw;
+    z-index: 0;
+}
+
+.btn_meetup:hover{
+    color: #fed136;  /* yellow  */
+    text-decoration: none;
+}
+
+
+
+
+/*****************************************************************************
+       ABOUT                
+*****************************************************************************/
+
+.row.welcome-row{
+    text-align:center;
+}
+
+
+
+
+/*****************************************************************************
+       WHY SPEAK TEXT style                 
+*****************************************************************************/
+
+.team-member {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.team-member p {
+    margin-top: 0;
+}
+
+aside.clients img {
+    margin: 50px auto;
+}
+
+.timeline .timeline-heading h4 {
+    color: #cd202c;  /*  toast bright red  */
+}
+
+.timeline .timeline-heading h4.subheading {
+    color: #cd202c;  /*  toast bright red  */
+}
+
+
+.logo_picntext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+}
+
+
+
+
+
+/*****************************************************************************
+        GOOGLE MAP iFrame style                   
+*****************************************************************************/
+
+
+.map {
+        
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    font-weight: 700;
+}
+
+
+iframe {
+	border: none;
+	width: 100%;
+	height: 574px;
+	border: 7px solid #a0b2b1;  /*  grey  */
+}
+
+iframe:hover,
+iframe:focus,
+iframe:active{
+	border: 7px solid #fed136;  /*  yellow  */
+}
+
+/*****************************************************************************
+        GENERAL EMAIL CONTACT SECTION                
+*****************************************************************************/
+
+section#contact {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+section#contact .form-group {
+    /* margin-bottom: 25px */
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px;
+}
+
+section#contact .form-group input.form-control {
+    height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+    height: 236px;
+}
+
+section#contact .form-control:focus {
+    border-color: #fed136; /* yellow */
+    box-shadow: none;
+}
+
+section#contact::-webkit-input-placeholder {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact:-moz-placeholder {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact::-moz-placeholder {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact:-ms-input-placeholder {
+   font-family: 'Montserrat', 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact .text-danger {
+    color: #e74c3c;
+}
+
+
+.floating-label-form-group {
+    position: relative;
+    margin-bottom: 0;
+    padding-top: 1em;
+    border-bottom: 1px solid #eee;
+}
+
+
+
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+    z-index: 1;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: #004165; /*  toast blue */
+    box-shadow: none!important;
+    resize: none;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+
+.floating-label-form-group input:focus,
+.floating-label-form-group textarea:focus,
+.floating-label-form-group input:active,
+.floating-label-form-group textarea:active{
+    border-width: 4px;
+    border-color: #fed136;  /* yellow  */
+    border-style: solid;
+}
+
+
+
+.floating-label-form-group label {
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: 1em;
+    margin: 0;
+    font-size: 1.6em;
+    line-height: 1.2em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+    -webkit-transition: top .3s ease,opacity .3s ease;
+    -moz-transition: top .3s ease,opacity .3s ease;
+    -ms-transition: top .3s ease,opacity .3s ease;
+    transition: top .3s ease,opacity .3s ease;
+}
+
+.floating-label-form-group::not(:first-child) {
+    padding-left: 14px;
+}
+
+.floating-label-form-group-with-value label {
+    top: 0;
+    opacity: 1;
+}
+
+.floating-label-form-group-with-focus label {
+    color: #cd202c;  /*  bright red  */
+}
+
+form .row:first-child .floating-label-form-group {
+    /* border-top: 1px solid #eee; */
+}
+
+#contact label{
+    color: #A9B2B1; /* grey */
+}
+
+input#name.form-control,
+input#email.form-control,
+input#phone.form-control,
+textarea#message.form-control
+{
+    color: white;
+    border: 2px;
+    border-color: #114D92;   /* light blue */
+    border-style: solid;
+}
+
+.floating-label-form-group{
+    margin-bottom: 0px;
+    padding-top: 0px;
+    border: none;
+}
+
+
+
+
+
+/*****************************************************************************
+       SOCIAL MEDIA      
+*****************************************************************************/
+
+.flexContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.centerSocial{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: #004165; /*dark blue*/
+}
+
+
+
+.socialIcon > a> svg{
+    position: relative;
+    top: -7px;
+    width: 60px;
+    height: 60px;
+    }
+
+
+.socialIcon > a > svg:hover + .socialIcon > a> svg > path:before{
+   fill: #cd202c;  /*  bright red */
+    }
+
+.socialIcon > a> svg > path{
+    fill: white;
+    }
+
+.socialIcon > a> svg > path:hover,
+.socialIcon > a> svg > path:active,
+.socialIcon > a> svg > path:focus{
+    fill: #cd202c;  /*  bright red */
+    }
+
+
+
+
+
+
+/*****************************************************************************
+       FOOTER                   
+*****************************************************************************/
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+    background: #772432; /* toast dark red */ 
+}
+
+/*******
+footer span.copyright {
+    line-height: 40px;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    text-transform: uppercase;
+    text-transform: none;
+    color: white;
+}
+
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    line-height: 40px;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    text-transform: uppercase;
+    text-transform: none;
+}
+*********/
+
+footer .copyright,
+footer .quicklinks {
+    line-height: 40px;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    color: white;
+}
+
+
+.footerTags{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+footer .list-inline.quicklinks{
+    text-decoration: none;
+    padding: 10px 16px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    color: white;
+}
+
+footer .list-inline.quicklinks:hover{
+    color: #772432; /* toast dark red */
+    background-color: #fed136;  /* yellow  */
+}
+
+
+/*
+footer .tsandcs[data-display="hidden"]{
+    display: none;
+}
+
+footer .tsandcs[data-display="show"]{
+    text-align: justify;
+    font-size: 20px;
+    font-size: 1.2rem;
+    color: white;
+}
+*/
+
+
+/*****************************************************************************
+==================================================================
+       MEDIA QUERIES     
+==================================================================
+*****************************************************************************/
+
+
+
+/**************** MOBILE phone ***********************/
+/************** assume touch dominant   **************/
+@media (max-width:767px) and (orientation: portrait) {
+    
+    a {
+	touch-action: manipulation;
+}
+    a.navbar-brand.page-scroll.logo_picntext>svg{
+        display:none;
+        touch-action: manipulation;
+    }
+    
+    .navbar-toggle{
+        margin-right: 15vw;
+    }
+    
+    .header_general {
+    background-image: url(../img/header-general-small.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+/*
+.header_members {
+    background-image: url(../img/membersLounge/header-members-grey-small.jpg);
+    background-size: 100%;
+    border: none;
+}
+*/
+    
+    .intro-text {
+    margin-top: 5px;
+}
+    
+    header .intro-text .intro-heading {
+        font-family: 'Montserrat', 'Arial', sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 3.2rem;
+        top: 110px;
+        left: 50px;
+    }
+    
+    
+    .meetingInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    
+    
+    .meeting-image{
+        width: 314px;
+        height: 164px;
+        border: 7px solid #A9B2B1;  /* toast grey */
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .meeting-image:hover, 
+    .meeting-image:focus, 
+    .meeting-image:active {
+        border: 7px solid #fed136;  /*  yellow  */
+    }
+    
+    .meeting-panel{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 20px;
+        width: 90%;
+    }
+    
+    .centerSocial{
+    padding-left: 10%;
+    padding-right: 10%;
+   }
+    
+    
+.btn_meetup{
+    touch-action: manipulation;
+    background-image: none;
+    background-color: #cd202c; /* meetup red */
+    border-radius: 100px 100px 100px 100px;
+    -moz-border-radius: 100px 100px 100px 100px;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    border: 5px solid #A9B2B1;
+    
+    -webkit-box-shadow: 0 22px 8px -8px black;
+     -moz-box-shadow: 0 22px 8px -8px black;
+          box-shadow: 0 22px 8px -8px black;
+    
+    width: 100px;
+    height: 100px;
+    /*padding-top: 10px; */
+    font-size: 1.3rem;
+    transition: all .2s cubic-bezier(1,-0.29, 0.54, 1.1);
+    z-index: 200;
+    top: 61vh;
+    left: 69vw;
+    justify-content: center;
+    align-items: center;
+   }
+   
+ 
+    .meetup_text{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        color: white;
+    }
+    
+    
+
+    #theDate{
+    font-size: 2rem;
+    }
+    
+    
+    #theDateIndices{
+    font-size: 1.5rem;
+    }
+
+    #theMonth{
+    font-size: 115%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    }
+    
+    
+    
+    .meetup_text:hover,
+    .meetup_text:active,
+    .meetup_text:focus{
+        color: #fed136;  /*  yellow  */
+    }
+    
+    
+    .btn_meetup:hover,
+    .btn_meetup:active,
+    .btn_meetup:focus
+    {
+        transform: scale(1.05);
+        -webkit-box-shadow: 0 14px 8px -8px black;
+        -moz-box-shadow: 0 14px 8px -8px black;
+        box-shadow: 0 14px 8px -8px black;
+        text-decoration: none;
+    }
+    
+    
+
+    
+} 
+
+@media (max-width:767px) and (orientation: landscape) {
+    a.navbar-brand.page-scroll.logo_picntext>svg{
+        touch-action: manipulation; 
+        display:none;
+    }
+    
+    .navbar-toggle{
+        margin-right: 15vw;
+    }
+    
+    .header_general {
+    background-image: url(../img/header-general-small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+/*
+.header_members {
+    background-image: url(../img/membersLounge/header-members-grey-small.jpg);
+    background-size: 100%;
+    border: none;
+}
+*/
+    
+    header .intro-text .intro-heading {
+        top: 190px;
+        left: 50px;
+    }
+    
+    
+    .meetingInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    
+    
+    .meeting-image{
+        width: 314px;
+        height: 164px;
+        border: 7px solid #A9B2B1;  /* toast grey */
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .meeting-image:hover, 
+    .meeting-image:focus, 
+    .meeting-image:active {
+        border: 7px solid #fed136;  /*  yellow  */
+    }
+    
+    .meeting-panel{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 20px;
+        width: 90%;
+    }
+    
+    .centerSocial{
+    padding-left: 10%;
+    padding-right: 10%;
+   }
+    
+ .btn_meetup{
+    touch-action: manipulation;
+    background-image: none;
+    background-color: #cd202c; /* meetup red */
+    border-radius: 100px 100px 100px 100px;
+    -moz-border-radius: 100px 100px 100px 100px;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    border: 5px solid #A9B2B1;
+    
+    -webkit-box-shadow: 0 22px 8px -8px black;
+     -moz-box-shadow: 0 22px 8px -8px black;
+          box-shadow: 0 22px 8px -8px black;
+    
+    width: 100px;
+    height: 100px;
+    /*padding-top: 10px; */
+    font-size: 1.3rem;
+    transition: all .2s cubic-bezier(1,-0.29, 0.54, 1.1);
+    z-index: 200;
+    top: 61vh;
+    left: 69vw;
+    justify-content: center;
+    align-items: center;
+   }
+   
+    .meetup_text{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        color: white;
+    }
+    
+    
+
+    #theDate{
+    font-size: 2rem;
+    }
+    
+    
+    #theDateIndices{
+    font-size: 1.5rem;
+    }
+
+    #theMonth{
+    font-size: 115%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    }
+    
+    
+    
+    .meetup_text:hover,
+    .meetup_text:active,
+    .meetup_text:focus{
+        color: #fed136;  /*  yellow  */
+    }
+    
+    
+    .btn_meetup:hover,
+    .btn_meetup:active,
+    .btn_meetup:focus
+    {
+        transform: scale(1.05);
+        -webkit-box-shadow: 0 14px 8px -8px black;
+        -moz-box-shadow: 0 14px 8px -8px black;
+        box-shadow: 0 14px 8px -8px black;
+        text-decoration: none;
+    }
+    
+
+    
+}
+
+
+/**************** TABLET  ***********************/
+/************** assume touch dominant   **************/
+@media (min-width:768px) and (max-width: 991px) and (orientation: portrait) {
+    .navbar-default {
+        background-color: #772432; /* toast dark red */ 
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+        border: 0
+    }
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s
+    }
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px
+    }
+    .navbar-default.navbar-shrink {
+        background-color: #772432; /* toast dark red */ 
+        padding: 0;
+    }
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em
+    }
+    
+    ul.nav.navbar-nav.navbar-right{
+        margin-right: 3vw;
+    }
+    
+
+ a.navbar-brand.page-scroll.logo_picntext>svg{
+        touch-action: manipulation;
+        display:none;
+    }
+
+    .header_general {
+    background-image: url(../img/header-general-small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+/*
+.header_members {
+    background-image: url(../img/membersLounge/header-members-grey-wide1.jpg);
+    background-size: 100%;
+    border: none;
+    margin-top: 220px;
+}
+*/
+    
+     header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px
+}
+
+    header .intro-text .intro-lead-in {
+       font-family: 'Montserrat', 'Arial', sans-serif;
+        font-style: italic;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 25px
+    }
+
+    header .intro-text .intro-heading {
+     font-family: 'Montserrat', 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 6vw;
+    line-height: 5vw;
+    margin-bottom: 50px;
+    top: 31vh;
+    width: 60vw;
+    text-align: right;
+    left: 30vw;
+    }
+    
+
+    .meetingInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    
+    .meeting-image{
+        width: 314px;
+        height: 164px;
+        border: 7px solid #A9B2B1;  /* toast grey */
+        text-align: center;
+        margin: 5px;
+    }
+    
+    .meeting-image:hover, 
+    .meeting-image:focus, 
+    .meeting-image:active {
+        border: 7px solid #fed136;  /*  yellow  */
+    }
+    
+    .meeting-panel{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 20px;
+        width: 80%;
+    }
+    
+    .centerSocial{
+    padding-left: 20%;
+    padding-right: 20%;
+   }
+    
+    
+    .btn_meetup{
+      top: 43vh;
+    }
+    
+  .btn_meetup a{
+    position:absolute;
+    width: 120%;
+    height: 120%;
+    background-image: url(../img/button_meetup_300x250_opt.svg);
+    top: 0px;
+    font-size: 3rem;
+    z-index: 2000;
+    transition: all 0.2s cubic-bezier(.76, .27, .31, 1.25);
+    background-repeat: no-repeat;
+    }
+    
+    
+    .meetup_text{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 3rem;
+        color: white;
+    }
+    
+    
+
+    #theDate{
+    font-size: 3rem;
+    }
+    
+    
+    #theDateIndices{
+    font-size: 2rem;
+    }
+
+    #theMonth{
+    font-size: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    }
+    
+     .meetup_text:hover{
+     color: #fed136;  /* yellow  */
+    }
+    
+    
+    .btn_meetup a:hover{
+    position:absolute;
+    transform: scale(1.1);
+    text-decoration: none;
+     color: #fed136;  /* yellow  */
+    
+    }
+    
+    
+    .butmeetupshadow{
+    position: absolute;
+    width: 130%;
+    height: 130%;
+    background-image: url(../img/button_meetup_300x260_shadow.svg);
+    background-repeat: no-repeat;
+    top: 50px;
+    transition: all 0.2s cubic-bezier(.76, .27, .31, 1.25);
+    }
+
+    .btn_meetup a:hover + .butmeetupshadow{
+    position:absolute;
+    transform:translateY(-30px)
+    }
+    
+    
+}
+
+@media (min-width:768px) and (max-width: 991px) and (orientation: landscape) {
+    .navbar-default {
+        background-color: #772432; /* toast dark red */ 
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+        border: 0
+    }
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s
+    }
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px
+    }
+    .navbar-default.navbar-shrink {
+        background-color: #772432; /* toast dark red */ 
+        padding: 0;
+    }
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em
+    }
+    
+ a.navbar-brand.page-scroll.logo_picntext>svg{
+        touch-action: manipulation;
+        display:none;
+    }
+
+    .header_general {
+    background-image: url(../img/header-general-small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+
+/*
+.header_members {
+    background-image: url(../img/membersLounge/header-members-grey-small.jpg);
+    background-size: 100%;
+    border: none;
+}
+*/
+    
+     header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px
+    }
+    header .intro-text .intro-lead-in {
+        font-family: 'Montserrat', 'Arial', sans-serif;
+        font-style: italic;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 25px
+    }
+    header .intro-text .intro-heading {
+        font-family: 'Montserrat', 'Arial', sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 75px;
+        line-height: 75px;
+        margin-bottom: 50px
+    }
+    
+
+    .meetingInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    
+    .meeting-image{
+        width: 314px;
+        height: 164px;
+        border: 7px solid #A9B2B1;  /* toast grey */
+        text-align: center;
+        margin: 5px;
+    }
+    
+    .meeting-image:hover, 
+    .meeting-image:focus, 
+    .meeting-image:active {
+        border: 7px solid #fed136;  /*  yellow  */
+    }
+    
+    .meeting-panel{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 20px;
+        width: 80%;
+    }
+    
+    .centerSocial{
+    padding-left: 20%;
+    padding-right: 20%;
+   }
+    
+    
+    .btn_meetup a{
+    position:absolute;
+    width: 110%;
+    height: 110%;
+    background-image: url(../img/button_meetup_300x250_opt.svg);
+    top: 110px;
+    z-index: 2000;
+    transition: all 0.2s cubic-bezier(.76, .27, .31, 1.25);
+    background-repeat: no-repeat;
+    }
+    
+    
+    .meetup_text{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 1rem;
+        color: white;
+    }
+    
+    
+
+    #theDate{
+    font-size: 3rem;
+    }
+    
+    
+    #theDateIndices{
+    font-size: 2rem;
+    }
+
+    #theMonth{
+    font-size: 3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    }
+    
+     .meetup_text:hover{
+     color: #fed136;  /* yellow  */
+    }
+    
+    
+    .btn_meetup a:hover{
+    position:absolute;
+    transform: scale(1.1);
+    text-decoration: none;
+     color: #fed136;  /* yellow  */
+    
+    }
+    
+    
+    .butmeetupshadow{
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    background-image: url(../img/button_meetup_300x260_shadow.svg);
+    background-repeat: no-repeat;
+    top: 150px;
+    transition: all 0.2s cubic-bezier(.76, .27, .31, 1.25);
+    }
+
+    .btn_meetup a:hover + .butmeetupshadow{
+    position:absolute;
+    transform:translateY(-30px)
+    }
+    
+}
+
+
+/**************** DESKTOP ***********************/
+/*******  assume click & hover dominant   *******/
+
+@media (min-width:992px) and (max-width: 1199px)  and (orientation: portrait) {
+
+
+    .navbar-default {
+        background-color: #772432; /* toast dark red */ 
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+        border: 0
+    }
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s
+    }
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px
+    }
+    .navbar-default.navbar-shrink {
+        background-color: #772432; /* toast dark red */ 
+        padding: 0;
+    }
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em
+    }
+    ul.nav.navbar-nav.navbar-right{
+        margin-right: 3vw;
+    }
+    
+
+
+    .header_general {
+    background-image: url(../img/header-general-bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    margin-top: 200px;
+}
+
+/*
+.header_members {
+    background-image: url(../img/membersLounge/header-members-grey-bg4.jpg);
+    background-size: 100%;
+    border: none;
+    margin-top: 200px;
+}
+    
+*/
+
+    .meetingInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    
+    
+    .meeting-image{
+        width: 314px;
+        height: 164px;
+        border: 7px solid #A9B2B1;  /* toast grey */
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .meeting-image:hover, 
+    .meeting-image:focus, 
+    .meeting-image:active {
+        border: 7px solid #fed136;  /*  toast yellow  */
+    }
+    
+    .meeting-panel{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 20px;
+        width: 90%;
+    }
+    
+    .centerSocial{
+    padding-left: 30%;
+    padding-right: 30%;
+   }
+    
+ 
+    .btn_meetup a{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    width: 140%;
+    height: 140%;
+    background-image: url(../img/button_meetup_300x250_opt.svg);
+    top: -40px;
+    font-size: 3rem;
+    z-index: 2000;
+    transition: all 0.2s cubic-bezier(.76, .27, .31, 1.25);
+      background-repeat: no-repeat;
+    }
+    
+    
+.meetup_text{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 3rem;
+        color: white;
+    }
+    
+    
+
+    #theDate{
+    font-size: 4rem;
+    }
+    
+    
+    #theDateIndices{
+    font-size: 2.5rem;
+    }
+
+    #theMonth{
+    font-size: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    }
+    
+     .meetup_text:hover{
+     color: #fed136;  /* yellow  */
+    }
+    
+    
+    .btn_meetup a:hover{
+    position:absolute;
+    transform: scale(1.1);
+    text-decoration: none;
+     color: #fed136;  /* yellow  */
+    
+    }
+    
+    
+    .butmeetupshadow{
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    background-image: url(../img/button_meetup_300x260_shadow.svg);
+    background-repeat: no-repeat;
+    top: 10px;
+    transition: all 0.2s cubic-bezier(.76, .27, .31, 1.25);
+    }
+
+    .btn_meetup a:hover + .butmeetupshadow{
+    position:absolute;
+    transform:translateY(-30px)
+    }
+    
+}
+
+@media (min-width:992px) and (max-width: 1199px)  and (orientation: landscape) {
+
+
+    ul.nav.navbar-nav.navbar-right{
+        margin-right: 3vw;
+    }
+    
+    .header_general {
+    background-image: url(../img/header-general-bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    margin-top: 180px;
+}
+
+
+/*
+.header_members {
+    background-image: url(../img/membersLounge/header-members-grey-bg4.jpg);
+    background-size: 100%;
+    border: none;
+    margin-top: 180px;
+}
+*/
+    
+
+    .meetingInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    
+    
+    .meeting-image{
+        width: 314px;
+        height: 164px;
+        border: 7px solid #A9B2B1;  /* toast grey */
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .meeting-image:hover, 
+    .meeting-image:focus, 
+    .meeting-image:active {
+        border: 7px solid #fed136;  /*  toast yellow  */
+    }
+    
+    .meeting-panel{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 20px;
+        width: 90%;
+    }
+    
+    .centerSocial{
+    padding-left: 30%;
+    padding-right: 30%;
+   }
+    
+    .btn_meetup{
+        top: 48vh;
+    }
+    
+  .btn_meetup a{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    width: 140%;
+    height: 140%;
+    background-image: url(../img/button_meetup_300x250_opt.svg);
+    top: 30px;
+    font-size: 3rem;
+    z-index: 2000;
+    transition: all 0.2s cubic-bezier(.76, .27, .31, 1.25);
+    background-repeat: no-repeat;
+    }
+    
+    
+.meetup_text{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 0;
+        color: white;
+    }
+    
+    
+
+    #theDate{
+    font-size: 4rem;
+    }
+    
+    
+    #theDateIndices{
+    font-size: 2rem;
+    }
+
+    #theMonth{
+    font-size: 3.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
+    }
+    
+     .meetup_text:hover{
+     color: #fed136;  /* yellow  */
+    }
+    
+    
+    .btn_meetup a:hover{
+    position:absolute;
+    transform: scale(1.1);
+    text-decoration: none;
+     color: #fed136;  /* yellow  */
+    
+    }
+    
+    
+    .butmeetupshadow{
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    background-image: url(../img/button_meetup_300x260_shadow.svg);
+    background-repeat: no-repeat;
+    top: 120px;
+    transition: all 0.2s cubic-bezier(.76, .27, .31, 1.25);
+    }
+
+    .btn_meetup a:hover + .butmeetupshadow{
+    position:absolute;
+    transform:translateY(-30px)
+    }
+    
+}
+
+@media (min-width:1200px){
+
+    header.header_general{
+    padding-top: 30vh;
+    background-image: url(../img/header-general-bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+/*
+.header_members {
+    padding-top: 30vh;
+    background-image: url(../img/membersLounge/header-members-grey-bg4.jpg);
+    background-size: 100%;
+    border: none;
+}
+*/
+
+     header .intro-text .intro-heading {
+        font-family: 'Montserrat', 'Arial', sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 75px;
+        line-height: 75px;
+        margin-bottom: 50px;
+        width: 40vw;
+        top: 30vh;
+    }
+    .meetingInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 30px 0px 30px;
+        padding: 0px;
+        width: 28vw;
+    }
+    
+    
+    .meeting-image{
+    width: 314px;
+    height: 164px;
+    border: 7px solid #A9B2B1;  /* toast grey */
+    text-align: center;
+    margin: 20px;
+    }
+    
+    .meeting-image:hover, 
+    .meeting-image:focus, 
+    .meeting-image:active {
+        border: 7px solid #fed136;  /* yellow  */
+    }
+    
+    .meeting-panel{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+    width: 70%;
+    }
+    
+    .centerSocial{
+    padding-left: 30%;
+    padding-right: 30%;
+   }
+    
+    
+  .btn_meetup a{
+    position:absolute;
+    width: 240px;
+    height: 200px;
+    background-image: url(../img/button_meetup_300x250_opt.svg);
+    top: 330px;
+    font-size: 3rem;
+    z-index: 2000;
+    transition: all 0.2s cubic-bezier(.76, .27, .31, 1.25);
+    }
+    
+    
+    .meetup_text{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 3rem;
+        color: white;
+    }
+    
+    
+
+    #theDate{
+    font-size: 4rem;
+    }
+    
+    
+    #theDateIndices{
+    font-size: 2.5rem;
+    }
+
+    #theMonth{
+    font-size: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    }
+    
+    
+     .meetup_text:hover{
+     color: #fed136;  /* yellow  */
+    }
+    
+    
+    .btn_meetup a:hover{
+    position:absolute;
+    transform: scale(1.1);
+    text-decoration: none;
+    color: #fed136;  /* yellow  */
+    }
+    
+    
+    .butmeetupshadow{
+    position: absolute;
+    width: 160%;
+    height: 160%;
+    background-image: url(../img/button_meetup_300x260_shadow.svg);
+    background-repeat: no-repeat;
+    top: 390px;
+    transition: all 0.2s cubic-bezier(.76, .27, .31, 1.25);
+    }
+
+    .btn_meetup a:hover + .butmeetupshadow{
+    position:absolute;
+    transform:translateY(-30px)
+    }
+
+    
+} 
+

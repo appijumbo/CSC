@@ -2,7 +2,7 @@
 layout: default
 ---
 <!-- Header -->
-<header id="home" class="header_general">
+<header id="home" class="header_general" style="background-color: #772432">
     <div class="container">
         <div class="intro-text">
             <div class="intro-heading">where leaders are made</div>
@@ -26,9 +26,9 @@ layout: default
             </div>
         </div>
         <div class="row">
-            {% include team-list.html nickname='mags'%}
-            {% include team-list.html nickname='tom'%}
-            {% include team-list.html nickname='neera'%}
+                {% include team-list.html nickname='mags'%}
+                {% include team-list.html nickname='tom'%}
+                {% include team-list.html nickname='neera'%}
         </div>
     </div>
 </section>
@@ -131,24 +131,18 @@ layout: default
                     <div class="row">
                         <div class="form-group col-xs-12">
                             <button type="submit" class="btn btn-lg but-toast-yellow">Send</button>
-                          
                         </div>
                     </div>
                                   
                 </form>
-                    
-                    
-                    
-                    
+
                 </div>
             </div>
             
-            
-            
+
             <!--  Map  -->
             {% include venueLocation.html  %}
-            
-        
+
             
         </div>
     </div>
