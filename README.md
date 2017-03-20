@@ -14,9 +14,12 @@ After some consideration it was felt that a two page design, first page qualify 
 
 Ostensibly the mobile wireframe was the same as the desktop one but employed single columns and a ‘burger’ menu. Hence although the design was ‘mobile first’ the hardest part from a design perspective was understanding how the desktop sized screen would work.
 
-![wireframe design part 1](./design_Info/toastmaster wireframe 1_.jpg)
+<a href="./design_Info/toastmaster wireframe 1_.jpg">wireframe design part 1</a>
+<img src="./design_Info/toastmaster wireframe 1_.jpg">
 
-![wireframe design part 2](./design_Info/toastmaster wireframe 2_.jpg)
+
+<a href="./design_Info/toastmaster wireframe 2_.jpg">wireframe design part 2</a>
+<img src="./design_Info/toastmaster wireframe 2_.jpg">
 
 ### 2) Brand research 
 After consulting the main Toastmaster website, [information on branding](https://www.toastmasters.org/Resources/Logos-Images-and-Templates) was found that could be directly implemented in the website design.   
@@ -25,7 +28,9 @@ Including:
 
   * brand Visuals – including colour schemes 
 
-![brand manual visuals](./design_Info/brand manual visuals 1.jpg)
+
+<a href="./design_Info/brand manual visuals 1.jpg">brand manual visuals</a>
+<img src="./design_Info/brand manual visuals 1.jpg">
 
   * text – including elevator pitch with a choice of 50 or 100 words to use as main introduction
 
@@ -42,9 +47,14 @@ However initially the date would be hard coded, ensuring the CSS worked across p
 ### 4) High Fidelity Design
 Using the low resolution wireframe combined with the toastmasters branding, a first-order high resolution wireframe was produced.
 
-![Toastmaster design 1](./design_Info/Toastmaster design_1of2.jpg)
 
-![Toastmaster design 2](./design_Info/Toastmaster design_2of2.jpg)
+<a href="./design_Info/Toastmaster design_1of2.jpg">Toastmaster design 1</a>
+<img src="./design_Info/Toastmaster design_1of2.jpg">
+
+
+<a href="./design_Info/Toastmaster design_2of2.jpg">Toastmaster design 2</a>
+<img src="./design_Info/Toastmaster design_2of2.jpg">
+
 
 ### Brand legality considerations
  As the club is an affiliate toastmaster group, during design phase it was initially unclear if indeed the official Toastmaster brand material could be used however, so an alternative colour scheme and logo was created as a backup. 
@@ -52,13 +62,17 @@ Using the low resolution wireframe combined with the toastmasters branding, a fi
 * alternative branding using different colour palette and new logo designed
 This design looked at how the 'members corner' page might work, with the key initial concept of having resources and discussions in the same place.
 
-![Alternative Branding - Early members page concept](./design_Info/early ideas on how 'members corner' might work.jpg)
+
+<a href="./design_Info/early ideas on how 'members corner' might work.jpg">Alternative Branding - Early members page concept</a>
+<img src="./design_Info/early ideas on how 'members corner' might work.jpg">
 
 Eventually assurances were given that using the official brand material was acceptable.
 
 After consultation and advice it was felt that the single page design was too long. A new wireframe was created along with a single colour blue background to enphasise simplicity and the single narrative to qualify from ‘welcome’ to ‘say hello’.
-![wireframe design - final](./design_Info/toastmaster wireframe 3_.jpg)
 
+
+<a href="./design_Info/toastmaster wireframe 3_.jpg">wireframe design - final</a>
+<img src="./design_Info/toastmaster wireframe 3_.jpg">
 
 ### 5) Coding the site
 #### Choosing a dynamic or static website - Wordpress or Jekyll
@@ -112,9 +126,13 @@ In addition to PageSpeed this identified the need to switch to all HTTPS, the us
 All these issues need to be acted on.
 
 
-![varvy 1](./design_Info/varvy1.jpg)
 
-![varvy 2](./design_Info/varvy2.jpg)
+<a href="./design_Info/varvy1.jpg">varvy 1</a>
+<img src="./design_Info/varvy1.jpg">
+
+
+<a href="./design_Info/varvy1.jpg">varvy 2</a>
+<img src="./design_Info/varvy2.jpg">
 
 
 ### Phase II
