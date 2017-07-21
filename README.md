@@ -175,11 +175,11 @@ In future I’ll use [Gulp](http://gulpjs.com) for [minifying and other needs su
 One major frustration was that having multiple Github accounts did repeatdly cause password key access problems. I havn't yet got a complete solution, and had to hand manage my password system quite a lot. Ideally I can find a better solution in future. Perhaps switchinfg to Linux may help because I can more easily manage SSH.
 
 ### Future Worpress sites
-#### Vagrat and Salt
-I intend to use [Vagrant](https://www.vagrantup.com) with [Salt](https://www.vagrantup.com/docs/provisioning/salt.html) to create a better work environment for any future Wordpress sites to be developed in. This will isolate each wordpress develpment and should create a 'within a single disposable, consistent environment..'
+#### Docker Vagrat and Salt
+I intend to use docker or [Vagrant](https://www.vagrantup.com) with [Salt](https://www.vagrantup.com/docs/provisioning/salt.html) to create a better work environment for any future Wordpress sites to be developed in. This will isolate each wordpress develpment and should create a 'within a single disposable, consistent environment..'
 
-#### Beaver Builder
-This is a GUI development tool for Wordpress. It allows site development with minimal coding. This may be the best option for Worpress development, however it dosn't support my need to understand the code. It's not clear at this stage how/ if I will integrate its use in any future Wordpress developemnt.
+#### Beaver Builder, Page Builder by SiteOrigin
+This is a GUI development tool for Wordpress. It allows site development with minimal coding. This may be the best option for Worpress development, however it costs approch £100. UPdate: With hindsight [sightOrigin's page builder](https://en-gb.wordpress.org/plugins/siteorigin-panels/) which is free I belive may be a good alternative.
 
 ### Future Jekyll sites
 #### Client Side Support
