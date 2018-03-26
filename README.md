@@ -4,6 +4,12 @@ https://appijumbo.github.io/CSC/
 
 The [version used by the club](https://github.com/adminCSC/CSC) is a fork of appijumbo version, though the actual [club website](http://chesterspeaking.club) has a customised website address.
 
+
+<a href="http://chesterspeaking.club/">
+<img src="https://github.com/appijumbo/CSC/blob/gh-pages/toast1.jpg" alt="Chester Speaking Club site" width=600px>
+</a>
+
+
 ## Objective
 A Toastmaster club website was to be designed and built. Toastmaster is an established international brand and its main website is a very high quality. However its membership default website that many clubs use is very dated and therefore a fresher more modern design and functionality was required.
 
@@ -15,11 +21,11 @@ After some consideration it was felt that a two page design, first page qualify 
 Ostensibly the mobile wireframe was the same as the desktop one but employed single columns and a ‘burger’ menu. Hence although the design was ‘mobile first’ the hardest part from a design perspective was understanding how the desktop sized screen would work.
 
 <a href="./design_Info/toastmaster wireframe 1_.jpg">wireframe design part 1</a>
-<img src="./design_Info/toastmaster wireframe 1_.jpg">
+<img src="./design_Info/toastmaster wireframe 1_.jpg" alt="toastmaster wireframe">
 
 
 <a href="./design_Info/toastmaster wireframe 2_.jpg">wireframe design part 2</a>
-<img src="./design_Info/toastmaster wireframe 2_.jpg">
+<img src="./design_Info/toastmaster wireframe 2_.jpg" alt="toastmaster wireframe">
 
 ### 2) Brand research 
 After consulting the main Toastmaster website, [information on branding](https://www.toastmasters.org/Resources/Logos-Images-and-Templates) was found that could be directly implemented in the website design.   
