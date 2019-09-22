@@ -1,9 +1,10 @@
 # Chester Speaking Club Website
-https://appijumbo.github.io/CSC/ 
 
 Note: This site has recently been set aside by the club and alas no longer has correct api keys for the meetup api to function hence the next meetup day now doesn't display on the meetup button. However the [static site](https://appijumbo.github.io/ToastStatic/) used to devlop this site gives one an idea how this would have looked.
 
+<a href="https://appijumbo.github.io/CSC/ ">
 <img src="https://github.com/appijumbo/CSC/blob/gh-pages/toast1.jpg" alt="Chester Speaking Club site" width=600px>
+</a>
 
 ## Objective
 A Toastmaster club website was to be designed and built. Toastmaster is an established international brand and its main website is a very high quality. However its membership default website that many clubs use is very dated and therefore a fresher more modern design and functionality was required.
